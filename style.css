@@ -7,16 +7,31 @@
     background-color: black;
     width: 100%;
     height: 80px;
-   
+    padding-top: 30px;      
 }
 h4 {
-    margin: 50px 0 0 50px;
-    color: white;
+    width: 30%;
+    color: white;   
 }
+.logo{
+    vertical-align: middle;
+}
+
 nav {
     display: block;
+    text-align: center;
+    width: 30%;
+
+}
+a {
     text-decoration: none;
 }
 button {
+    margin-left: 30%;
+    margin-bottom: 10px;
     
+}
+.church {
+    background-image: url(images/woman-in-orange-coat-with-black-and-brown-scarf-5418305.jpg);
+    background-size: auto;
 }
