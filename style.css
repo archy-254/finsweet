@@ -2,12 +2,18 @@
     padding: 0;
     margin: 0;
     box-sizing:border-box;
+    font-family: 'Roboto Condensed';
+}
+body {
+  font-family: mo;
 }
 .header {
     background-color: black;
     width: 100%;
     height: 80px;
-    padding-top: 30px;      
+    padding-top: 30px;  
+    padding-left: 100px;  
+   
 }
 h4 {
     width: 30%;
@@ -15,12 +21,14 @@ h4 {
 }
 .logo{
     vertical-align: middle;
+    font-size: 25px;
 }
 
 nav {
-    display: block;
+    display: flex;
     text-align: center;
     width: 30%;
+    justify-content: space-between;
 
 }
 a {
@@ -28,10 +36,93 @@ a {
 }
 button {
     margin-left: 30%;
-    margin-bottom: 10px;
+    background-color:#FFD2A4;
+    align-items: center;
+    width: 150px;
+    height:50px;
+    margin-right: 50px;
+    border-radius: 12px;
+    
     
 }
 .church {
     background-image: url(images/woman-in-orange-coat-with-black-and-brown-scarf-5418305.jpg);
-    background-size: auto;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 100px;
+   
+
+}
+.b2 {
+   
+}
+hr{
+    width: 3%;
+    color: #FFD2A4;
+}
+.church h5,h1 {
+    color: white;
+    margin-bottom: 50px;  
+}
+.paragraph {
+    color: white;
+}
+h5 {
+    margin-bottom: 15px;
+    font-weight: 700px;
+}
+h1 {
+    font-size: 250%;
+    word-spacing: 5px;
+    line-height: 50px;
+    font-family: ;
+}
+.about-us{
+   
+}
+h2 {
+   text-align: center;
+   margin: 100px 0 50px 0;
+   font-size: 48px;
+   color: #161722;
+   letter-spacing: -0.01em;
+}
+.giving-back {
+    display: flex;
+    justify-content: center;
+    
+}
+.small-container {
+    /* border: 1px solid black; */
+    margin-right: 15px;
+    padding: 120px 30px 0px 20px;
+    height: 300px;
+    line-height: 20.0px;
+    background: #FFF5EB;
+} 
+/* .line-1{
+    /* margin-top: 40px;
+    width:400px;
+    height: 5px;
+  background:#FFD2A4; */
+   */
+h3 {
+    margin-bottom: 30px;
+    color: #161722;
+    letter-spacing: -0.01em;
+}
+.paragraph-2 {
+    text-align: center;
+}
+.b3 {
+   margin: 20px 0px 10px 550px;
+}
+.images {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 20px 50px 20px 70px;
+}
+.reading {
+    margin-top: 70px;
 }
