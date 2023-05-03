@@ -5,7 +5,7 @@
     font-family: 'Roboto Condensed';
 }
 body {
-  font-family: mo;
+  
 }
 .header {
     background-color: black;
@@ -14,6 +14,9 @@ body {
     padding-top: 30px;  
     padding-left: 100px;  
    
+}
+.paragraph {
+    /* align-items: baseline; */
 }
 h4 {
     width: 30%;
@@ -40,9 +43,10 @@ button {
     align-items: center;
     width: 150px;
     height:50px;
-    margin-right: 50px;
+    margin-bottom: 60px;
     border-radius: 12px;
-    
+    position: relative;
+    right: 325px;
     
 }
 .church {
@@ -52,9 +56,6 @@ button {
     padding: 200px 100px;
    
 
-}
-.b2 {
-   
 }
 hr{
     width: 3%;
@@ -66,6 +67,10 @@ hr{
 }
 .paragraph {
     color: white;
+    position: relative;
+    right: 380px;
+    bottom:10px;
+    /* text-align: right; */
 }
 h5 {
     margin-bottom: 15px;
@@ -76,9 +81,6 @@ h1 {
     word-spacing: 5px;
     line-height: 50px;
     font-family: ;
-}
-.about-us{
-   
 }
 h2 {
    text-align: center;
@@ -111,18 +113,89 @@ h3 {
     color: #161722;
     letter-spacing: -0.01em;
 }
-.paragraph-2 {
+p {
     text-align: center;
+    font-weight:lighter;
 }
 .b3 {
-   margin: 20px 0px 10px 550px;
+    position: relative;
+    top: 120px;
+   margin: 40px 0px 20px 550px;
 }
 .images {
     display: grid;
     column-gap: 50px;
     grid-template-columns: auto auto auto;
-    padding: 20px 50px 20px 70px;
+    padding: 90px 80px 20px 90px;
 }
 .reading {
     margin-top: 70px;
 }
+.celebrate {
+    text-align: center;
+    font-weight: 700px;
+    margin: 20px 0 20px 0;
+    word-spacing: 8px;
+}
+.mission {
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+.more {
+    margin-top: 20px;
+}
+.benefits {
+    background-color:  #F5F2F0;
+    /* padding: 150px 0 40px 0;
+} */
+}
+.nun {
+    background-image: url(images/fashion-man-love-people-5875438.png);
+    background-size: cover;
+    padding: 5px 20px;
+    width: 300px;
+    height: 350px;
+   
+}
+.bible {
+    background-image: url(images/a-statue-holding-a-holy-book-5613134.png);
+    background-size: cover;
+    /* padding: 200px 70px; */
+    width: 300px;
+    height: 350px;
+}
+.priest {
+    background-image: url(images/man-people-woman-connection-6276711.png);
+    background-size: cover;
+    /* padding: 200px 70px; */
+    width: 300px;
+    height: 350px;
+}
+.picture {
+    background-image: url(images/woman-in-blue-tank-top-and-man-in-red-shirt-painting-3795022.png);
+    background-size: cover;
+    /* padding: 200px 70px; */
+    width: 300px;
+    height: 350px;
+}
+.prayer-room {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+h6 {
+    font-size: 18px;
+    color: white;
+    margin-right: 15px; 
+}
+.paragraph-nun {
+    margin-right: 15px;
+    margin-top: 150px;
+    padding: 50px 30px 0px 20px;
+    text-align: left;
+}
+
+
