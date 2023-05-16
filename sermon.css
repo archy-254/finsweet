@@ -44,12 +44,24 @@ a {
     bottom: 10px;
     
 }
+.part {
+    font-size: 42px;
+    color: #232536;
+}
 .cross {
     background-image: url(./images/U_b-eSviHvs.png);
     background-size: cover;
     background-position: center;
     padding: 200px 100px;
+    color: #232536;
 }
+h2 {
+    text-align: center;
+    margin: 100px 0 50px 0;
+    font-size: 48px;
+    color: #161722;
+    letter-spacing: -0.01em;
+ }
 .join-us {
     display: flex;
     justify-content: center;
@@ -61,6 +73,13 @@ a {
     font-size: 10px;
     margin-bottom: 10px;
     
+}
+.icon {
+    margin: 10px 10px;
+}
+.angel {
+    width: 600px;
+    height: 500px;
 }
 .upcoming-events {
    width:400px;
@@ -89,6 +108,14 @@ a {
     font-weight: 700px;
     margin-left: 50px;
 }
+.days {
+    text-align: left;
+    position: relative;
+    left: 30px;
+    bottom: 25px;
+    line-height: 24px;
+    font-weight: 300px;
+}
 h6 {
     font-size: 18px;
     color: white;
@@ -103,11 +130,80 @@ h6 {
     background: #161722;
     align-items: center;
     width: 150px;
-    height: 50px;
-    border-radius: 12px;
+    padding: 15px;
     color: #FFD2A4;
     position: relative; 
-    position:absolute;
+    bottom: 5%;
+    border-radius: 12px;
     
    
+}
+.second {
+    margin-bottom: 80px;
+}
+.upcoming {
+    display: flex;
+    justify-content: center;
+    /* margin: 50px 20px; */
+}
+.event {
+    width:300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+    align-items: left;
+    padding-bottom: 20% ;
+    padding-top: 2%;
+    padding-left: 20px;
+    background-color: #FFF5EB;
+   
+}
+.end {
+    display: flex;
+   background-color: #161722;
+   color: white;  
+   padding: 40px 50px;
+   height: 300px;
+ }
+ .finsweet {
+    color:#FFD2A4;
+    font-size: 20px;
+    padding-bottom: 15px;
+ }
+ .paragraph6 {
+     color: white;
+     text-align:left ;
+     font-size: 16px;
+     font-weight: 400px;
+     line-height: 24px;
+     margin-bottom: 30px;
+     margin-top: 20px;
+ }
+ .icons {
+     margin: 15px ; 
+ }
+ .icon {
+    margin: 0 10px;
+}
+.subscribe {
+    margin-left: 50%;
+    background-color:#FFD2A4;
+    align-items: center;
+    width: 150px;
+    height:50px;
+    margin-bottom: 60px;
+    border-radius: 12px;
+ 
+   
+}
+.copyright {
+    width: 300px;
+    height: 350px;
+    font-size: 15px;
+}
+.updates {
+    font-size: 20px;
+    margin-top: 40px;
 }
